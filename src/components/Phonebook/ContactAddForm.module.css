@@ -1,0 +1,48 @@
+.buttonAdd {
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  width: 80px;
+  height: 35px;
+}
+
+.buttonAdd:hover {
+  background-color: #3e8e41;
+}
+
+.buttonAdd:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.addForm {
+  flex-direction: column;
+  display: block;
+  display: flex;
+}
+.form {
+  flex-direction: column;
+  display: block;
+  display: flex;
+  border: solid;
+  height: 150px;
+  padding: 10px;
+}
+.label {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  display: block;
+  width: 150px;
+}

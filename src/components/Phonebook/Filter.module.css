@@ -1,0 +1,15 @@
+.contacts {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.label {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  display: block;
+  width: 150px;
+}
